@@ -3,9 +3,9 @@ package ujiandua;
 
 public class Account {
 
-    public int acc_no;
-    public String name;
-    public double amount;
+    int acc_no;
+    String name;
+    double amount;
 
     public void insert(int a, String n, double amt) {
         acc_no = a;
