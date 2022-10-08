@@ -1,4 +1,4 @@
-package ujiandua.testng;
+package ujiandua;
 
 
 public class Account {
