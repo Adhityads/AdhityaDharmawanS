@@ -16,14 +16,17 @@ public class Account {
     public void deposit(double amt) {
         amount = amount + amt;
         System.out.println(amt + " deposited");
+        System.out.println(amount);
     }
 
     public void withdraw(double amt) {
         if (amount < amt) {
             System.out.println("Insufficient Balance");
+            System.out.println(amount);
         } else {
             amount = amount - amt;
             System.out.println(amt + " withdrawn");
+            System.out.println(amount);
         }
     }
 
